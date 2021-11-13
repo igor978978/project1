@@ -1,0 +1,114 @@
+
+.container{
+    max-width: 1600px;
+    width: 100%;
+}
+.header{
+    background-image: url(./img/maincraft.png);
+    
+    height: 770px;
+    display: flex;
+    /* flex-direction: row; */
+    }
+    .header-iner{
+        display: flex;
+        justify-content: space-between;
+        /* flex-direction: row; */
+    }
+    .menu{
+        display: flex;
+        /* flex-direction: row; */
+        color: azure;
+        align-items: center;
+    }
+    .logo{
+        color: azure;
+    }
+   ul{
+       list-style-type: none;
+       display: flex;
+     
+       margin:0 auto;
+   }
+   a{
+       text-decoration:none;
+       color: azure;
+       margin: 10px;
+   }
+   .header-iner2{
+
+       display: flex;
+       flex-direction: column; 
+       justify-content: center; 
+      
+       align-items:center;
+      
+       height: 50vh;
+      
+       color: azure;
+       width: 100%;
+       font-size: 30px;
+   }
+   hr{
+       width: 35px;
+   }
+   .service{
+       color:black;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+   }
+   .mon{
+       display: flex;
+       flex-direction: column;
+   }
+   .block{
+    display: flex;
+    justify-content: space-between;
+    } 
+    .container-2{
+        width: 100%;
+        background-color: #BF2F1B;
+    }  
+    .vl{
+        color: azure;
+        display: flex;
+        justify-content: space-around;
+    }
+    .cl{
+       
+        border-radius: 50%;
+        border: 2px solid rgb(255, 255, 255);
+       
+    }
+    .ds{
+        text-transform:uppercase;
+        border: 100px;
+       
+        border-color: azure;
+        border: 2px solid rgb(255, 255, 255);
+
+    }
+    .fr{
+        text-transform: uppercase;
+    }
+    .vb{
+        color: azure;
+        display: flex;
+        justify-content: center;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+

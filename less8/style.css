@@ -1,0 +1,59 @@
+.iner{
+    
+    height: 200px;
+    background-color:black
+}
+.container{
+    max-width: 1200px;
+    width: 100%;
+}
+h2{
+    text-align: center;
+    color: white;
+}
+.main{
+    width: 100%;
+    height: 600px;
+}
+.left{
+    width: 20%;
+    height: 600px;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+}
+li{
+    margin: 50px;   
+}
+.right{
+width: 70%;
+height: 600px;
+background-color: brown;
+float: right;
+display: flex;
+justify-content: center;
+align-items:baseline;
+}
+img{
+    margin: 50px;
+    width: 900px;
+    height: 295px;
+    display: flex;
+    align-items: center;
+}
+.mon{
+width: 100px;
+height: 100px;
+background-color: black;
+margin: 10px;
+align-self:flex-end;
+}
+.head{
+    display: flex;
+    justify-content:center;
+    align-items: flex-end;
+}
+h1{
+    text-align: center;
+    color: white;
+}

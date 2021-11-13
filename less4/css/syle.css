@@ -1,0 +1,15 @@
+img{
+    width: 10000;
+}
+table{
+    box-shadow: 7px 7px 5px rgb(0, 0, 0);
+}
+.right{
+    width: 5000px; ;
+     margin: 300px;
+    background-color: rgb(43, 255, 0);
+}
+.left{
+    
+    background-color: blueviolet;
+}

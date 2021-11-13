@@ -1,0 +1,19 @@
+.one{
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+}
+
+.home{
+width: 360px;
+height: 250px;
+background-color: black;
+display: flex;
+flex-direction:row;
+align-items: center;
+justify-content: center;
+justify-content: space-around;
+}
+
+
+

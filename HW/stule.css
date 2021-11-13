@@ -1,0 +1,23 @@
+
+   
+.home{
+    background-color: blueviolet;
+    width: 200px;
+    height: 500px;
+    overflow: hidden;
+    box-shadow: 7px 7px 5px rgb(0, 0, 0);
+}
+img{
+    float: right;
+    border-radius: 20px;
+    width: 100px;
+     height: 100px;
+    
+
+}
+/* .block{
+    width: 800px; 
+    height: 500px;
+} */
+
+
