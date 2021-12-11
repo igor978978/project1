@@ -1,0 +1,69 @@
+.container{
+    max-width: 1500px;
+    max-height: 1500px;
+    display: flex;
+    flex-direction: column;
+}
+.head{
+    width: 100%;
+    height: 1000px;
+    background-color: cadetblue;
+    /* display: flex;
+    flex-direction: column; */
+}
+.ed{
+    color: red;
+}
+.ad{
+    color: green;
+}
+a{
+    text-decoration: none;
+}
+.tp:hover{
+color: blue;
+font-size:xx-large;
+
+}
+.tp{
+    color: blue;
+}
+.active{
+    color: green;
+}
+.active:active{
+    color: aqua;
+}
+.focus{
+    color: green;
+}
+.focus:focus{
+    color: whitesmoke;
+}
+.nm{
+    height: 5px;
+    width: 70px;
+}
+.bn:checked{
+    height: 30px;
+    width: 30px;
+}
+.vk{
+    color: blue;
+}
+.df{
+    font-size: larger;
+}
+.kl{
+    color: green;
+}
+.lk{
+    color: blue;
+}
+.cc{
+    list-style-type: none;
+}
+.dd{
+color: green;
+font-size:large ;
+}
