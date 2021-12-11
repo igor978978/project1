@@ -1,0 +1,42 @@
+@import url("https://use.fontawesome.com/releases/v5.13.0/css/all.css");
+
+
+.image{
+    max-width: 300px;
+    max-height:300px ;
+    height: 452;
+    width: 100%;
+    margin: 50px;
+}
+.far{
+    color: rgb(138, 136, 136);
+    display: flex; 
+    justify-content: end;
+    align-items: flex-start;
+    
+}
+.fas{
+    color: red;
+    display: flex; 
+    justify-content: end;
+    align-items: flex-end;
+    text-shadow:rgb(116, 2, 2) 0 5px;
+}
+.icon{
+    display: flex;
+    justify-content: space-between;
+}
+.btn-info{
+    width: 75px;
+    height: 35px;
+    
+}
+.bott{
+    display: flex;
+    justify-content: end;
+}
+.war{
+    display: flex;
+    justify-content: center;
+    
+}
