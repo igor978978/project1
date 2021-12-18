@@ -1,0 +1,47 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+nav{
+    width: 250px;
+}
+.gnizdo{
+    text-shadow: rgb(146, 30, 255) 0 3px;
+
+}
+.card, .cards{
+    margin-left: auto;
+    margin-right: auto;
+}
+.sign{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    width: 200px;
+}
+.footer{
+    height: 200px;
+    background-color: rgb(215, 173, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+button{
+    background-color: white;
+    
+    position: relative;
+    right: 25px;
+    bottom: 1px;
+    border: 0;
+}
+input{
+    border: 0;
+    border-bottom: 1px solid black;
+}
+button:hover{
+    border: 1px solid black;
+    background-color: rgb(215, 173, 255);
+}
