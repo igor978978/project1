@@ -1,0 +1,96 @@
+.header{
+    width:1200px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(32, 13, 49);
+    /* background-color: rgb(182, 128, 128); */
+    height: 700px;
+    margin: 10px;
+    box-shadow: 5px 5px 5px 5px rgb(32, 13, 49) ;
+   flex-direction: column;
+   background-image: url(./backgrund.jpg);
+}
+main{
+    /* max-width: 1500px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 1900px;
+    height: 1500px;
+    background-color: brown;
+}
+h2{
+     text-shadow: rgb(0, 0, 0) 0 2px;
+}
+.main{
+    /* color: rgb(32, 13, 49); */
+    background-color: rgb(182, 128, 128);
+    box-shadow: 5px 5px 5px 5px rgb(32, 13, 49) ;
+    display: flex;
+    flex-direction: row;
+    width: 88%;
+}
+.less{
+    width: 100px;
+    height: 120px;
+    background-color: rgb(32, 13, 49);
+    
+    box-shadow: 5px 5px 5px 5px rgb(92, 1, 172) ;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    color: rgb(182, 128, 128);
+    text-decoration: none;
+    text-shadow: 0 5px rgb(92, 1, 172);
+}
+.less:hover{
+    background-image: url(./back2.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header:hover{
+    background-image: url(./back3.jpg);
+}
+input{
+    height: 0;
+    border: 0;
+   
+}
+input::before{
+    content: "";
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    border-radius: 50%;
+    position: fixed;
+    top:0;
+    right: 50px;
+    z-index: 100;
+    background-size: 80%;
+    background-repeat:no-repeat ;
+    background: url(./tv-gordon-tremeshco_97478.png);
+
+}
+input:checked main + header{
+        background-color:rgb(0, 0, 0) ;
+        }
+
+   
+
+@media screen and (max-width: 800px){
+    .header{
+        width: 400px;
+        
+    }
+    .main{
+        width: 400px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
